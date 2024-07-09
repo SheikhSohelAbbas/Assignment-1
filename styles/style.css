@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 2px solid red; */
 }
 body{
     font-family: "Azeret Mono", monospace;
@@ -11,14 +10,12 @@ body{
 }
 /* header section styles */
 header{
-    width: 100%;
+    width: 1440px;
     height: 652px;
     background-image:url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 74px;
-    
+    background-size: cover;  
 }
 .banner{
     width: 998px;
@@ -28,7 +25,6 @@ header{
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    /* padding: 13px 110px 22px; */
 }
 .banner img{
     width: 240.28px;
@@ -65,5 +61,183 @@ header{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* main styles */
+/* <!-- web development section   --> */
+
+.web-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 74px 152px 90px 148px;          ;
+    
+}
+.web-content{
+    padding: 80px 97px 80px 97px;
+}
+.web-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.web-text-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.web-text-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+
+}
+.web-one-conten{
+    width: 946px;
+    height: 336px;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 48px;
+    border-radius: 16px;
+    background:rgb(255, 255, 255);
+    margin: 32px 0px;
+}
+.left-one-content{
+    width: 477px;
+    height: 140px;
+    text-align: left;
+    
+}
+.left-one-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin: 16px 0px;
+}
+.left-one-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 16px 0px;
+}
+.left-one-content button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    text-align: left;
+    margin: 32px;
+}
+.left-one-content span{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.right-one-content img{
+    width: 259.56px;
+    height: 217.01px;
+}
+.web-two-conten{
+    width: 946px;
+    height: 336px;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 48px;
+    border-radius: 16px;
+    background:rgb(255, 255, 255);
+    margin: 32px 0px;
+}
+.left-two-content img{
+    width: 223.2px;
+    height: 208.85px;
+}
+.right-two-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin: 16px 0px;
+}
+.right-two-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 16px 0px;
+}
+.right-two-content button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    text-align:left;
+    margin: 32px;
+}
+.right-two-content span{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.web-three-conten{
+    width: 946px;
+    height: 336px;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 48px;
+    border-radius: 16px;
+    background:rgb(255, 255, 255);
+    margin: 32px 0px;
+}
+.left-three-content h3{ 
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin: 16px 0px;
+}
+.left-three-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 16px 0px;
+}
+.left-three-content button{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    text-align: left;
+    margin: 32px;
+}
+.left-three-content span{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.right-three-content img{
+    width: 259.56px;
+    height: 217.01px;
 }
 
