@@ -69,7 +69,9 @@ header{
 .web-container{
     width: 1140px;
     height: 1393px;
-    margin: 74px 152px 90px 148px;          ;
+    margin: 74px 152px 90px 148px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
     
 }
 .web-content{
@@ -112,9 +114,9 @@ header{
 }
 .left-one-content{
     width: 477px;
-    height: 140px;
+    height: 219px;
     text-align: left;
-    
+    margin: 0px 10px;
 }
 .left-one-content h3{
     color: rgba(13, 19, 33, 0.7);
@@ -138,6 +140,10 @@ header{
     padding: 12px 20px 12px 20px;
     text-align: left;
     margin: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
 }
 .left-one-content span{
     color: rgb(13, 19, 33);
@@ -145,6 +151,9 @@ header{
     font-size: 20px;
     font-weight: 600;
     text-align: left;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 10px;
+
 }
 .right-one-content img{
     width: 259.56px;
@@ -185,8 +194,11 @@ header{
     width: 171px;
     height: 47px;
     padding: 12px 20px 12px 20px;
-    text-align:left;
+    text-align: left;
     margin: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 }
 .right-two-content span{
     color: rgb(13, 19, 33);
@@ -194,6 +206,8 @@ header{
     font-size: 20px;
     font-weight: 600;
     text-align: left;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 10px;
 }
 .web-three-conten{
     width: 946px;
@@ -228,6 +242,9 @@ header{
     padding: 12px 20px 12px 20px;
     text-align: left;
     margin: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 }
 .left-three-content span{
     color: rgb(13, 19, 33);
@@ -235,9 +252,67 @@ header{
     font-size: 20px;
     font-weight: 600;
     text-align: left;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 10px;
 }
 .right-three-content img{
     width: 259.56px;
     height: 217.01px;
 }
 
+/* <!-- My Inspiration section styles  --> */
+.Inspiration-container{
+    width: 1140px;
+    height: 775px;
+    margin: 74px 152px 170px 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    position: absolute;
+}
+.Inspiration-text-content{
+    position: static;
+    width: 852px;
+    height: 113px;
+    margin: 48px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+}
+.Inspiration-text-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 24px 0px;
+}
+.Inspiration-text-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+.Inspiration-video{
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    position: static;
+    margin: 48px 0px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.Inspiration-video iframe{
+    position: static;
+    width: 1076px;
+    height: 550px;
+    margin: 10px 0px;
+    border-radius: 16px;
+    background: url(Jhankar);
+}
