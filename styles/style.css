@@ -68,7 +68,8 @@ header{
 
 .web-container{
     width: 1140px;
-    height: 1393px;
+    height: 1693px;
+    border: 2px solid red;
     margin: 74px 152px 90px 148px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -279,7 +280,9 @@ header{
 /* <!-- My Inspiration section styles  --> */
 .Inspiration-container{
     width: 1140px;
-    height: 775px;
+    height: 875px;
+    border: 2px solid red;
+    margin: 74px 152px 90px 148px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -334,9 +337,10 @@ header{
 
 .current-target-container{
     width: 1140px;
-height: 460px;
-margin: 111px 0px;
-border: 2px solid red;
+    height: 660px;
+    margin: 111px 0px;
+    border: 2px solid red;
+    margin: 74px 152px 90px 148px;
 
 }
 .target-text-content{
@@ -346,7 +350,7 @@ border: 2px solid red;
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    margin: 48px 0px;
+    margin: 48px 97px;
 }
 .target-text-content h1{ 
     color: rgb(13, 19, 33);
@@ -378,6 +382,47 @@ margin: 24px 0px;
     border-radius: 16px;
         background: rgba(255, 76, 30, 0.05);
 }
+.html-skill img{
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+}
+.html-skill h4{
+    width: 284px;
+    height: 36px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.html-skill p{
+    width: 284px;
+    height: 52px;
+    margin: 8px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.html-skill span{
+    width: 284px;
+    height: 19px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
 .css-skill{
     width: 364px;
     height: 299px;
@@ -386,11 +431,86 @@ margin: 24px 0px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
+.css-skill img{
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+}
+.css-skill h4{
+    width: 284px;
+    height: 36px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.css-skill p{
+    width: 284px;
+    height: 52px;
+    margin: 8px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.css-skill span{
+    width: 284px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 24px 0px;
+}
 .javascript-skill{
-    width: 364px;
+    width: 200px;
     height: 299px;
     padding: 40px;
     margin: 0px 24px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+.javascript-skill img{
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+
+}
+.javascript-skill h4{
+    width: 284px;
+    height: 36px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.javascript-skill p{
+    width: 284px;
+    height: 52px;
+    margin: 8px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.javascript-skill span{
+    width: 284px;
+    height: 19px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
 }
