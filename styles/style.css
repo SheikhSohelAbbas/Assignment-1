@@ -67,9 +67,8 @@ header{
 /* <!-- web development section   --> */
 
 .web-container{
-    width: 1140px;
+    width: 1240px;
     height: 1693px;
-    border: 2px solid red;
     margin: 74px 152px 90px 148px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -279,9 +278,8 @@ header{
 
 /* <!-- My Inspiration section styles  --> */
 .Inspiration-container{
-    width: 1140px;
+    width: 1240px;
     height: 875px;
-    border: 2px solid red;
     margin: 74px 152px 90px 148px;
     display: flex;
     flex-direction: column;
@@ -336,10 +334,9 @@ header{
 /* my current target skill styles */
 
 .current-target-container{
-    width: 1140px;
+    width: 1240px;
     height: 660px;
     margin: 111px 0px;
-    border: 2px solid red;
     margin: 74px 152px 90px 148px;
 
 }
@@ -362,11 +359,11 @@ header{
 }
 .target-text-content p{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-opacity: 0.7;
-margin: 24px 0px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 24px 0px;
 }
 .target-skill{
     display: flex;
@@ -380,7 +377,7 @@ margin: 24px 0px;
     padding: 40px;
     margin: 0px 24px;
     border-radius: 16px;
-        background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 76, 30, 0.05);
 }
 .html-skill img{
     width: 56px;
@@ -469,7 +466,7 @@ margin: 24px 0px;
     margin: 24px 0px;
 }
 .javascript-skill{
-    width: 200px;
+    width: 364px;
     height: 299px;
     padding: 40px;
     margin: 0px 24px;
@@ -514,3 +511,85 @@ margin: 24px 0px;
     text-align: left;
     text-decoration-line: underline;
 }
+/* <!-- Support section --> */
+
+.support-container{
+    width: 1080px;
+    height: 313px;
+    margin: 74px 152px 90px 148px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-image: url(/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.support-text-content{
+    width: 920px;
+    height: 185px;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-text-content h2{
+    width: 292px;
+    height: 36px;
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.support-text-content p{
+    width: 606px;
+    height: 52px;
+    margin: 16px 0px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center
+}
+.support-search-content{
+    margin: 0px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.support-search-content .search{
+    width: 548px;
+    height: 57px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.support-search-content .submit{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 10px;
+}
+
